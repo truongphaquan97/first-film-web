@@ -9,8 +9,8 @@ const ResultList = (props) => {
   const [movieId, setMovieId] = useState("");
 
   //Hằng số này chưa object khớp với id của phim chúng ta click vào
-  const getDetailBySearchObject = props.data.find((searchMovie) =>
-    searchMovie.id ? searchMovie.id === movieId : null
+  const getDetailBySearchObject = props.data.find(
+    (searchMovie) => searchMovie?.id === movieId
   );
   console.log(getDetailBySearchObject);
   return (

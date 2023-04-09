@@ -6,11 +6,10 @@ import MovieOriginal from "./MovieOriginal";
 //Đây là component chưa list phim và MovieDetail nàm ngoài cùng của mỗi list phim
 function MovieList(props) {
   const { list } = props;
-  const { currentPost } = props;
-  console.log(currentPost);
+
   //Tìm object tương ứng với mã post đóng vai trò như key, thay thê id để tránh trùng id giữa 2 list phim mà có chung 1 bộ phim
-  const getDetailByCurrentObject = list.find((listMovie) =>
-    listMovie.post ? listMovie.post === props.currentPost : null
+  const getDetailByCurrentObject = list.find(
+    (listMovie) => listMovie?.post === props.currentPost
   );
 
   console.log(getDetailByCurrentObject);
@@ -37,7 +36,7 @@ function MovieList(props) {
             />
           ))}
       </div>
-      {currentPost !== "" && getDetailByCurrentObject && (
+      {props.currentPost !== "" && getDetailByCurrentObject && (
         <MovieDetail
           newInfo={getDetailByCurrentObject}
           key={getDetailByCurrentObject?.id}
