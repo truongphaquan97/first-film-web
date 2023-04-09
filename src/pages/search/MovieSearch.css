@@ -1,0 +1,15 @@
+.img-list-search {
+  width: 120px;
+  height: 180px;
+
+  padding: 10px 13.125px 10px 13.125px;
+}
+
+.img-list-search:hover {
+  width: 146.25px;
+  height: 200px;
+  padding: 0px;
+  z-index: 10;
+  transition: all 0.3s linear;
+  transform: scale(1.05);
+}

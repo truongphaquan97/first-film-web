@@ -1,0 +1,28 @@
+.movie-detail {
+  background-color: black;
+  color: white;
+  width: 1200px;
+
+  display: flex;
+  position: absolute;
+  margin-top: -25px;
+}
+
+.detail {
+  width: 600px;
+  padding-left: 15px;
+}
+
+.video {
+  width: 600px;
+  height: 300px;
+}
+.original-class {
+  margin-top: -55px;
+  background-color: black;
+  color: white;
+  width: 1200px;
+
+  display: flex;
+  position: absolute;
+}

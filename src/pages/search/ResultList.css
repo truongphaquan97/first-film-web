@@ -1,0 +1,15 @@
+.movie-frame {
+  display: flex;
+  width: 1200px;
+}
+.frame-search {
+  flex-wrap: wrap;
+}
+
+.h2-search {
+  color: white;
+}
+
+.result-page {
+  padding: 0px 15px 0px 15px;
+}

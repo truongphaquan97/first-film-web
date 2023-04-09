@@ -1,0 +1,18 @@
+.search-detail {
+  /* margin-top: -55px; */
+  background-color: black;
+  color: white;
+  width: 1200px;
+
+  display: flex;
+  position: absolute;
+}
+
+.detail-frame {
+  width: 600px;
+}
+
+.video-search {
+  width: 600px;
+  height: 300px;
+}

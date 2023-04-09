@@ -1,0 +1,66 @@
+.top {
+  width: 1200px;
+  height: 400px;
+  background-color: transparent;
+  padding-top: 200px;
+}
+
+.top-hot {
+  width: 60%;
+  background-color: transparent;
+  color: white;
+  margin-left: 3%;
+  margin-top: -30px;
+}
+
+.top-name {
+  height: 106px;
+}
+.top-name h1 {
+  font-size: 43px;
+}
+
+.top-button {
+  display: flex;
+  width: 60%;
+  margin-top: 30px;
+}
+
+.top-button div {
+  width: 22%;
+  margin-right: 3%;
+}
+
+.top-button div button {
+  width: 120%;
+  background-color: black;
+  border-color: transparent;
+  color: white;
+  opacity: 0.4;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.top-button div p {
+  margin-top: -39px;
+  font-size: 22px;
+  position: absolute;
+  margin-left: 26px;
+  font-weight: 600;
+}
+
+.top-button div {
+  margin-right: 12%;
+}
+.top-button div .btn-play {
+  margin-left: 2%;
+}
+
+.top-button div .btn-list {
+  margin-left: 1%;
+}
+.top-review p {
+  margin-top: 15px;
+  font-size: 14px;
+  width: 80%;
+}

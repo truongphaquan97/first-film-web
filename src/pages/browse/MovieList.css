@@ -1,0 +1,45 @@
+.frame-list {
+  height: 300px;
+  width: 1200px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 100px;
+  color: white;
+}
+
+.list-general {
+  height: 220px;
+  width: 3500px;
+  margin-top: 90px;
+  padding: 15px;
+}
+.list-original {
+  height: 300px;
+  width: 3500px;
+  margin: 60px 0px 0px 15px;
+}
+.frame-list::-webkit-scrollbar {
+  height: 5px;
+}
+
+.frame-list::-webkit-scrollbar-thumb {
+  background-color: rgb(128, 127, 127);
+  border-radius: 100rem;
+}
+.frame-list::-webkit-scrollbar:hover {
+  background-color: rgb(128, 127, 127);
+  border-radius: 100rem;
+  height: 10px;
+}
+.frame-list::-webkit-scrollbar-track {
+  background-color: rgb(61, 61, 61);
+  border-radius: 100rem;
+}
+
+.trending {
+  width: 100px;
+}
+
+.topic {
+  color: white;
+}
