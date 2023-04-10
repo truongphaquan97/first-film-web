@@ -37,7 +37,7 @@ const Banner = (props) => {
 
   useEffect(() => {
     fetchMovieHandler();
-  }, []);
+  });
 
   return (
     <div

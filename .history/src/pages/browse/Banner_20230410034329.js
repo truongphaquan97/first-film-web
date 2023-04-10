@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 //import { Link } from "react-router-dom";
 
 import NavBar from "./NavBar";
@@ -34,10 +34,6 @@ const Banner = (props) => {
   if (error) {
     console.log(error);
   }
-
-  useEffect(() => {
-    fetchMovieHandler();
-  }, []);
 
   return (
     <div

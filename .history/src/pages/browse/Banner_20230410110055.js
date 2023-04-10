@@ -37,7 +37,7 @@ const Banner = (props) => {
 
   useEffect(() => {
     fetchMovieHandler();
-  }, []);
+  });
 
   return (
     <div
@@ -45,7 +45,7 @@ const Banner = (props) => {
       style={{
         backgroundImage: `url(https://image.tmdb.org/t/p/original${movie.backdrop_path})`,
       }}
-      onLoad={fetchMovieHandler}
+      // onLoad={fetchMovieHandler}
     >
       <NavBar />
       <div className="top-hot">

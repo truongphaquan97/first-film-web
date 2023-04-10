@@ -50,7 +50,7 @@ const NavBar = () => {
       <p className="movie" onClick={scrollToHandler}>
         Movie App
       </p>
-      <div className="look">{searchIcon}</div>
+      <div>{searchIcon}</div>
     </div>
   );
 };

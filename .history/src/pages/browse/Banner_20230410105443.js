@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 //import { Link } from "react-router-dom";
 
 import NavBar from "./NavBar";
@@ -35,17 +35,13 @@ const Banner = (props) => {
     console.log(error);
   }
 
-  useEffect(() => {
-    fetchMovieHandler();
-  }, []);
-
   return (
     <div
       className="top"
       style={{
         backgroundImage: `url(https://image.tmdb.org/t/p/original${movie.backdrop_path})`,
       }}
-      onLoad={fetchMovieHandler}
+      // onLoad={fetchMovieHandler}
     >
       <NavBar />
       <div className="top-hot">
